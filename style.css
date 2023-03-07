@@ -1,0 +1,29 @@
+input[type='number']{
+    width: 80px;
+}
+#submit{
+    width: 500px;
+    height: 40px;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+table {
+    table-layout: fixed;
+}
+td {
+    text-align: center;
+    width: 50px;
+}
+div{
+    margin: 1em;
+}
+.NG{
+    background-color: pink;
+}
+.OK{
+    background-color: aqua;
+}

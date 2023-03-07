@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head lang="ja">
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <title>二分探索</title>
+    </head>
+    <body>
+      <p> 大学3年生の前期に授業の課題で作ったもの</p>
+        <a href="explain.html">アピールポイントや苦労した点等</a>
+        <h1>二分探索ビジュアライザ</h1>
+        <h3>整数列の要素のうち基準値以上で最小のものを見つけます</h3>
+        <p></p>
+        <div>
+            <p>カンマ区切りの整数列と基準となる数値を入力してください</p>
+            <p>
+                (例) <br>
+                整数列：1,3,4,5,2,1,5,7,8<br>
+                基準値：6
+            </p>
+            <p>
+                整数列：<input type="text" size="50" id="seq"><br>
+                基準値：<input type="number" id="X"><br>
+                <input type="button" value="決定" onclick="input()" id="submit">
+            </p>
+        </div>
+
+        <div id="hyoji"></div>
+
+        <div id="btns"></div>
+
+        <div id="ans"></div>
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
